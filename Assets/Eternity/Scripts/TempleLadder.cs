@@ -12,7 +12,7 @@ public class TempleLadder : MonoBehaviour {
   var d=player.transform.position-transform.position;
   return d.y>=-.7f&&d.y<16&&new Vector2(d.x,d.z).magnitude<3.7f;
  }
- void Update(){if(Input.GetKeyDown(KeyCode.E)&&InReach())Use();}
+ void Update(){if(ExpeditionMenu.BlocksInput)return;if(Input.GetKeyDown(KeyCode.E)&&InReach())Use();}
  public bool Use(){
   if(occupied||!InReach())return false;
   StartCoroutine(Climb(player.transform.position.y<(Top.y+Bottom.y)*.5f));return true;

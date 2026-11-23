@@ -37,7 +37,7 @@ namespace Eternity {
             Apply(0);
             foreach (var socket in sockets) socket.gameObject.SetActive(false);
         }
-        void Update() {
+        void Update() {if(ExpeditionMenu.BlocksInput)return;
             if(sinking){
                 if(time>0f){
                     time=Mathf.MoveTowards(time,0f,Time.deltaTime/Mathf.Max(.1f,sinkSeconds));

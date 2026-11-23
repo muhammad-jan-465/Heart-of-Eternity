@@ -3,6 +3,7 @@ namespace Eternity {
 public class GauntletPlayer : MonoBehaviour {
  public int health=10, maxHealth=10, keys;
  float hurtUntil;
+ TemplePassageAudio passageAudio;
  float airPose;
  public bool TryJump(){
   if(!controller||!controller.enabled||!controller.isGrounded||fall>0)return false;
@@ -43,6 +44,8 @@ public class GauntletPlayer : MonoBehaviour {
   gunAudio=GetComponent<AudioSource>();if(!gunAudio)gunAudio=gameObject.AddComponent<AudioSource>();gunshot=Resources.Load<AudioClip>("EncounterAudio/RifleSingle");
   if(bodyAnimator)bodyAnimator.cullingMode=AnimatorCullingMode.AlwaysAnimate;
   gameObject.AddComponent<TempleObjectiveGuide>();
+  passageAudio=gameObject.AddComponent<TemplePassageAudio>();
+  gameObject.AddComponent<ExpeditionMenu>();
   SetView(thirdPerson);
  }
  public void SetView(bool third){
@@ -51,10 +54,9 @@ public class GauntletPlayer : MonoBehaviour {
   if(firstPersonWeapon)firstPersonWeapon.SetActive(!third);
  }
  void Update(){
-  if(!controller||!eye)return;
+  if(ExpeditionMenu.BlocksInput||!controller||!eye)return;
   bool locked=Cursor.lockState==CursorLockMode.Locked;
-  if(Input.GetKeyDown(KeyCode.Escape)){Cursor.lockState=CursorLockMode.None;locked=false;}
-  else if(!locked && Input.GetMouseButtonDown(0))Cursor.lockState=CursorLockMode.Locked;
+  if(!locked && Input.GetMouseButtonDown(0))Cursor.lockState=CursorLockMode.Locked;
   if(Input.GetKeyDown(KeyCode.V))SetView(!thirdPerson);
   if(locked){
    transform.Rotate(0,Input.GetAxis("Mouse X")*2,0);
@@ -71,7 +73,10 @@ public class GauntletPlayer : MonoBehaviour {
  public void Move(Vector2 input,bool running,float dt){
   var stick=Vector2.ClampMagnitude(input,1);var dir=transform.right*stick.x+transform.forward*stick.y;
   fall=controller.isGrounded && fall<=0 ? -2 : fall-18*dt;
+  var before=transform.position;
   var contact=controller.Move((dir*(running?runSpeed:walkSpeed)+Vector3.up*fall)*dt);
+  var travelled=transform.position-before; travelled.y=0;
+  if(passageAudio)passageAudio.Travel(stick.sqrMagnitude>.01f?travelled.magnitude:0,controller.isGrounded,running);
   if((contact&CollisionFlags.Above)!=0 && fall>0)fall=0;
   Animate(stick.sqrMagnitude<.01f?Idle:running?Run:Walk);
  }
