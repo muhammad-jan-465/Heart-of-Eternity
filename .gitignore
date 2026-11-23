@@ -1,0 +1,9 @@
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/Assets/
+!/Packages/
+!/ProjectSettings/
+/Assets/_Recovery/
+/Assets/_Recovery.meta

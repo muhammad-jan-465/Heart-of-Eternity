@@ -1,0 +1,755 @@
+{
+ "items": [
+  {
+   "asset": "Gallery_1000_Hall__0_m8",
+   "x": 0,
+   "y": -12,
+   "z": -8,
+   "segment": 1,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1110__0_0",
+   "x": 0,
+   "y": -12,
+   "z": 0,
+   "segment": 2,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1110__0_8",
+   "x": 0,
+   "y": -12,
+   "z": 8,
+   "segment": 2,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1011",
+   "x": 0,
+   "y": -12,
+   "z": 16,
+   "segment": 3,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1011",
+   "x": 0,
+   "y": -12,
+   "z": 24,
+   "segment": 3,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_0110",
+   "x": 0,
+   "y": -12,
+   "z": 32,
+   "segment": 4,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_0101",
+   "x": 8,
+   "y": -12,
+   "z": 32,
+   "segment": 4,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_0101__16_32",
+   "x": 16,
+   "y": -12,
+   "z": 32,
+   "segment": 4,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_0101",
+   "x": 24,
+   "y": -12,
+   "z": 32,
+   "segment": 4,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_0011",
+   "x": 32,
+   "y": -12,
+   "z": 32,
+   "segment": 5,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1010",
+   "x": 32,
+   "y": -12,
+   "z": 24,
+   "segment": 5,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1011",
+   "x": 32,
+   "y": -12,
+   "z": 16,
+   "segment": 6,
+   "kind": "module"
+  },
+  {
+   "asset": "Bridge_1111__32_8",
+   "x": 32,
+   "y": -12,
+   "z": 8,
+   "segment": 6,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1010",
+   "x": 32,
+   "y": -12,
+   "z": 0,
+   "segment": 7,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1110",
+   "x": 32,
+   "y": -12,
+   "z": -8,
+   "segment": 7,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1001_Hall",
+   "x": 32,
+   "y": -12,
+   "z": -16,
+   "segment": 8,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_0101_Hall",
+   "x": 24,
+   "y": -12,
+   "z": -16,
+   "segment": 8,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1110",
+   "x": 16,
+   "y": -12,
+   "z": -16,
+   "segment": 9,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1010",
+   "x": 16,
+   "y": -12,
+   "z": -8,
+   "segment": 9,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1011",
+   "x": 16,
+   "y": -12,
+   "z": 0,
+   "segment": 9,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1111",
+   "x": 16,
+   "y": -12,
+   "z": 8,
+   "segment": 10,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_0110",
+   "x": 16,
+   "y": -12,
+   "z": 16,
+   "segment": 10,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_0111__24_16",
+   "x": 24,
+   "y": -12,
+   "z": 16,
+   "segment": 11,
+   "kind": "module"
+  },
+  {
+   "asset": "Bridge_1101__24_8",
+   "x": 24,
+   "y": -12,
+   "z": 8,
+   "segment": 12,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1100",
+   "x": -8,
+   "y": -12,
+   "z": 16,
+   "segment": 9,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_0110",
+   "x": -8,
+   "y": -12,
+   "z": 24,
+   "segment": 9,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1101",
+   "x": 8,
+   "y": -12,
+   "z": 0,
+   "segment": 9,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_0111",
+   "x": 8,
+   "y": -12,
+   "z": 8,
+   "segment": 9,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_0001",
+   "x": 40,
+   "y": -12,
+   "z": -8,
+   "segment": 9,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_SecretApproach",
+   "x": 40,
+   "y": -12,
+   "z": 8,
+   "segment": 9,
+   "kind": "module"
+  },
+  {
+   "asset": "Gallery_1000",
+   "x": 16,
+   "y": -12,
+   "z": -24,
+   "segment": 9,
+   "kind": "module"
+  },
+  {
+   "asset": "TRAP_Pendulum_01",
+   "x": 0,
+   "y": -12,
+   "z": 0,
+   "segment": 2,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_Pendulum_01",
+   "x": 0,
+   "y": -12,
+   "z": 8,
+   "segment": 2,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_Pendulum_01",
+   "x": 0,
+   "y": -12,
+   "z": 16,
+   "segment": 3,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_SpikeFloor_01",
+   "x": 0,
+   "y": -12,
+   "z": 17.9,
+   "segment": 3,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_SpikeFloor_01",
+   "x": 0,
+   "y": -12,
+   "z": 25.9,
+   "segment": 3,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_SpikeFloor_01",
+   "x": 8,
+   "y": -12,
+   "z": 1.9,
+   "segment": 9,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_FallingBlock_01",
+   "x": 32,
+   "y": -12,
+   "z": 32,
+   "segment": 5,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_FallingBlock_01",
+   "x": 32,
+   "y": -12,
+   "z": 24,
+   "segment": 5,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_FallingBlock_01",
+   "x": 32,
+   "y": -12,
+   "z": 16,
+   "segment": 6,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_DartWall_01",
+   "x": 32,
+   "y": -12,
+   "z": 0,
+   "segment": 7,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_DartWall_01",
+   "x": 32,
+   "y": -12,
+   "z": -8,
+   "segment": 7,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_DartWall_01",
+   "x": 40,
+   "y": -12,
+   "z": -8,
+   "segment": 9,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_RollingBoulder_01",
+   "x": 0,
+   "y": -12,
+   "z": 32,
+   "segment": 4,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_RollingBoulder_01",
+   "x": 8,
+   "y": -12,
+   "z": 32,
+   "segment": 4,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_RollingBoulder_01",
+   "x": 16,
+   "y": -12,
+   "z": 32,
+   "segment": 4,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_CollapsingFloor_01",
+   "x": 32,
+   "y": -12,
+   "z": 8,
+   "segment": 6,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_CollapsingFloor_01",
+   "x": 24,
+   "y": -12,
+   "z": 8,
+   "segment": 12,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_CollapsingFloor_01",
+   "x": 24,
+   "y": -12,
+   "z": 16,
+   "segment": 11,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_SlidingWall_01",
+   "x": 16,
+   "y": -12,
+   "z": -16,
+   "segment": 9,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_SlidingWall_01",
+   "x": 16,
+   "y": -12,
+   "z": -8,
+   "segment": 9,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_SlidingWall_01",
+   "x": 16,
+   "y": -12,
+   "z": 0,
+   "segment": 9,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_GearPlatform_01",
+   "x": 32,
+   "y": -12,
+   "z": -16,
+   "segment": 8,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_GearPlatform_01",
+   "x": 24,
+   "y": -12,
+   "z": -16,
+   "segment": 8,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_GearPlatform_01",
+   "x": 16,
+   "y": -12,
+   "z": -24,
+   "segment": 9,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_DoorSlam_01",
+   "x": 0,
+   "y": -12,
+   "z": -8,
+   "segment": 1,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_DoorSlam_01",
+   "x": 16,
+   "y": -12,
+   "z": 8,
+   "segment": 10,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_DoorSlam_01",
+   "x": 16,
+   "y": -12,
+   "z": 16,
+   "segment": 10,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_HiddenSwitch_01",
+   "x": -6.1,
+   "y": -12,
+   "z": 16,
+   "segment": 9,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_HiddenSwitch_01",
+   "x": 41.9,
+   "y": -12,
+   "z": 8,
+   "segment": 9,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_HiddenSwitch_01",
+   "x": 9.9,
+   "y": -12,
+   "z": 8,
+   "segment": 9,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_PressurePlate_01",
+   "x": -6.1,
+   "y": -12,
+   "z": 24,
+   "segment": 9,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_PressurePlate_01",
+   "x": 6.09999942779541,
+   "y": -12,
+   "z": 8,
+   "segment": 9,
+   "kind": "trap"
+  },
+  {
+   "asset": "TRAP_PressurePlate_01",
+   "x": 41.9,
+   "y": -12,
+   "z": -8,
+   "segment": 9,
+   "kind": "trap"
+  },
+  {
+   "asset": "Shaft_Threshold",
+   "x": 0,
+   "y": -12,
+   "z": -7.2,
+   "segment": 1,
+   "kind": "shaft"
+  },
+  {
+   "asset": "Shaft_Sanctuary",
+   "x": -2.1,
+   "y": -12,
+   "z": 0.65,
+   "segment": 10,
+   "kind": "shaft"
+  },
+  {
+   "asset": "Shaft_Mechanism",
+   "x": 0,
+   "y": -12,
+   "z": 9.6,
+   "segment": 8,
+   "kind": "shaft"
+  },
+  {
+   "asset": "Votive_Qollapse_Seal",
+   "x": 30,
+   "y": -8.8,
+   "z": -17,
+   "segment": 8,
+   "kind": "decoration"
+  },
+  {
+   "asset": "Boulder_Refuge",
+   "x": 16,
+   "y": -12,
+   "z": 38,
+   "segment": 4,
+   "kind": "decoration"
+  },
+  {
+   "asset": "Upper_Sanctuary",
+   "x": 0,
+   "y": 0,
+   "z": 0,
+   "segment": 1,
+   "kind": "upper"
+  },
+  {
+   "asset": "Upper_GrandStair",
+   "x": 0,
+   "y": 0,
+   "z": 0,
+   "segment": 1,
+   "kind": "upper"
+  },
+  {
+   "asset": "Upper_Escape",
+   "x": 0,
+   "y": 0,
+   "z": 0,
+   "segment": 12,
+   "kind": "upper"
+  },
+  {
+   "asset": "Upper_Reliquary",
+   "x": 51.6,
+   "y": -14.7,
+   "z": 8.9,
+   "segment": 10,
+   "kind": "upper"
+  },
+  {
+   "asset": "Safe_Glyph_1",
+   "x": -2.25,
+   "y": -11.982,
+   "z": 16.0,
+   "segment": 3,
+   "kind": "clue"
+  },
+  {
+   "asset": "Safe_Glyph_2",
+   "x": -2.25,
+   "y": -11.982,
+   "z": 18.5,
+   "segment": 3,
+   "kind": "clue"
+  },
+  {
+   "asset": "Safe_Glyph_3",
+   "x": -2.25,
+   "y": -11.982,
+   "z": 21.0,
+   "segment": 3,
+   "kind": "clue"
+  },
+  {
+   "asset": "SecretReliquaryVault",
+   "x": 44,
+   "y": -12,
+   "z": 8,
+   "segment": 10,
+   "kind": "secret"
+  },
+  {
+   "asset": "SecretReliquaryPanel",
+   "x": 44,
+   "y": -12,
+   "z": 8,
+   "segment": 10,
+   "kind": "secret"
+  }
+ ],
+ "start": [
+  0,
+  -11.94,
+  -10
+ ],
+ "centres": [
+  [
+   0,
+   -12,
+   -8
+  ],
+  [
+   0,
+   -12,
+   0
+  ],
+  [
+   0,
+   -12,
+   8
+  ],
+  [
+   0,
+   -12,
+   16
+  ],
+  [
+   0,
+   -12,
+   24
+  ],
+  [
+   0,
+   -12,
+   32
+  ],
+  [
+   8,
+   -12,
+   32
+  ],
+  [
+   16,
+   -12,
+   32
+  ],
+  [
+   24,
+   -12,
+   32
+  ],
+  [
+   32,
+   -12,
+   32
+  ],
+  [
+   32,
+   -12,
+   24
+  ],
+  [
+   32,
+   -12,
+   16
+  ],
+  [
+   32,
+   -12,
+   8
+  ],
+  [
+   32,
+   -12,
+   0
+  ],
+  [
+   32,
+   -12,
+   -8
+  ],
+  [
+   32,
+   -12,
+   -16
+  ],
+  [
+   24,
+   -12,
+   -16
+  ],
+  [
+   16,
+   -12,
+   -16
+  ],
+  [
+   16,
+   -12,
+   -8
+  ],
+  [
+   16,
+   -12,
+   0
+  ],
+  [
+   16,
+   -12,
+   8
+  ],
+  [
+   16,
+   -12,
+   16
+  ],
+  [
+   24,
+   -12,
+   16
+  ],
+  [
+   24,
+   -12,
+   8
+  ]
+ ]
+}
